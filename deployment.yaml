@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: digit7-product-api-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: digit7-product-api-service
+  template:
+    metadata:
+      labels:
+        app: digit7-product-api-service
+    spec:
+      containers:
+      - name: product-api-service
+        image: mdkumarmca/digit7-product-api-service:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "250m"
+        ports:
+        - containerPort: 8081

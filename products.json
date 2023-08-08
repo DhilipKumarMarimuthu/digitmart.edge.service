@@ -1,0 +1,26 @@
+[
+    {
+        "id": "digit-mart",
+        "name": "Digit Mart",
+        "tags": ["python", "computer vision", "pose detection", "tracking"],
+        "description": "AI-Powered Autonomous Checkout. Our modern AI-powered computer vision platform enables autonomous checkout for brick-and-mortar retailers."
+    },
+    {
+        "id": "digit-kart",
+        "name": "Digit Kart",
+        "tags": ["python", "computer vision"],
+        "description": "Touchless checkout. Checkout without touching anything. Our advanced technology can identify multiple items in less than a second, allowing your customers to scan, pay, and be on their way."
+    },
+    {
+        "id": "digit-robo",
+        "name": "Digit Robo",
+        "tags": ["python", "computer vision"],
+        "description": "Drone Inventory Management. Enhance your inventory visibility and planning with predictive technology. Using ERP data, a single-view dashboard is created allowing you to focus on the most important items."
+    },
+    {
+        "id": "digit-square",
+        "name": "Digit Square",
+        "tags": ["python", "computer vision"],
+        "description": "Content and Language Annotation solution. This solution. is an end-to-end SaaS based platform for annotating, training, and automating the computer vision pipeline."
+    }
+]

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product-api-service
-        image: mdkumarmca/digit7-product-api-service:latest
+        image: mdkumarmca/digit7-product-api-service:latest1
         resources:
           limits:
             memory: "128Mi"
